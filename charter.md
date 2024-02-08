@@ -24,7 +24,7 @@ The SPICE working group will:
 
 - Register claims that are in JWT in the CWT registry to enable digital credentials to transistion from one security format to another.
 - Develop a framework and recommendations for deploying digital credentials based on JOSE and COSE.
-- Develop profiles of CWT/CWP, JWT/JWP (Digitial Credential Profiles) that enable the semantic interchangeability required by use cases, for example, the SPICE working group 
+- Develop profiles of CWT/CWP, JWT/JWP (Digital Credential Profiles) that enable the semantic interchangeability required by use cases, for example, the SPICE working group 
 - define common conventions for key discovery (Metadata Discovery) that support verification and other issue, holder and verifier related capabilities.
 - Coordinate with RATS, OAuth, JOSE, COSE and SCITT working in related areas in the identity and credential space.  The WG will also build on cryptographic primitives defined in the CFRG (e.g., BBS Signatures) and will not define novel cryptographic schemes.
 
@@ -47,12 +47,14 @@ The SPICE working group will focus on the following program of work:
     credentials and digital presentations.
 * A proposed standard for a token format based on CWT and SD-JWT that enables
   digital credentials with unlinkability and selective disclosure in CBOR.
+* Proposed standards for digital credentials and digital presentations based on
+  the architecture document.
 
 ## Milestones
 
 - 12 2024 - Submit an informational Architecture document to the IESG for publication
 - 03 2025 - Submit a document as a proposed standard covering Metadata Discovery to the IESG for publication
-- 03 2025 - Submit a document as a proposed standard covering Digitial Credential Profiles to the IESG for publication
+- 03 2025 - Submit a document as a proposed standard covering Digital Credential Profiles to the IESG for publication
 
 
 
